@@ -65,7 +65,7 @@ class Main:
 
         # display all python processes running
         for i in injector.getpids():
-            print(colorama.Fore.CYAN + "  [*] PID: " + str(i) + colorama.Fore.RESET)
+            print(colorama.Fore.CYAN + "  [*] PID: " + str(i) + f"{' (Current)' if i == os.getpid() else ''}{colorama.Fore.RESET}")
         print('\n')
 
         try:

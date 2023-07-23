@@ -16,6 +16,10 @@ This tool was made for a educationaly use only
 - git clone https://github.com/yuxontop/Genesis/ OR Code --> Download ZIP & Extract
 - python3 Genesis.py
 - if you got modules error like no module named XXX so: pip3 install XXX
+- Find the PID of the python program you want to inject into
+- Enter it in Genesis
+- Select the payload you want to execute
+- Your done!
 
 # Requirement ❓
 

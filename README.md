@@ -10,6 +10,7 @@
 This tool was made for a educationaly use only
 
 # How to use
+- git clone https://github.com/yuxontop/Genesis/ OR Code --> Download
 - python3 Genesis.py
 - if you got modules error like no module named XXX so: pip3 install XXX
 
